@@ -1,0 +1,20 @@
+{
+  "SchemaVersion": 1,
+  "Name": "DHT22AzureIoTHub",
+  "ComponentId": "6ab39f58-2cf4-4e25-9742-fc26e76d24b7",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "BL-sphere-hub.azure-devices.net" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [ 8, 9, 10, 15, 16, 17, 18, 19, 20, 12, 13 ],
+    "Uart": [],
+    "I2cMaster": [],
+    "SpiMaster": [],
+    "WifiConfig": true,
+    "NetworkConfig": false,
+    "SystemTime": false,
+    "DeviceAuthentication": "fd2372c1-a031-423f-be26-bc0544698027"
+  }
+}

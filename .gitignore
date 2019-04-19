@@ -1,0 +1,8 @@
+#ignore files
+*.o
+*.so
+*.user
+.vs/
+obj/
+bin/
+
