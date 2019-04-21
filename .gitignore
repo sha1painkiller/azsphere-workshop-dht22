@@ -2,7 +2,9 @@
 *.o
 *.so
 *.user
+cscope.*
 .vs/
+tags
 obj/
 bin/
 
