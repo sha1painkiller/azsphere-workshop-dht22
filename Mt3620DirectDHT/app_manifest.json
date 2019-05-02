@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Mt3620DirectDHT_v0.18.11",
+  "ComponentId": "D0B43190-0101-4944-97B7-F1717906C237",
+  "TargetApplicationRuntimeVersion": 1,
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "BL-sphere-hub.azure-devices.net" ],
+    "Gpio": [ 0, 12, 13, 8, 9, 10, 15, 16, 17, 18, 19, 20, 48, 14, 11 ],
+    "Uart": [],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "WifiConfig": true,
+    "NetworkConfig": false,
+    "SystemTime": false,
+    "DeviceAuthentication": "fd2372c1-a031-423f-be26-bc0544698027"
+  }
+}
